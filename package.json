@@ -1,0 +1,141 @@
+{
+    "author": "Michael Krenn",
+    "dependencies": {
+        "pebble-clay": "^1.0.4"
+    },
+    "keywords": [],
+    "name": "gameclock",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "GameClock (American Football)",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "VibesEnabled",
+            "VibesOnNotificationsEnabled",
+            "VibesOnTapEnabled",
+            "VibesOnButtonPressedPatternIndex",
+            "VibesOnButtonStartsTimerPatternIndex",
+            "VibesOnButtonStopsTimerPatternIndex",
+            "VibesOnButtonSetsStartOnReadyPatternIndex",
+            "VibesOnButtonSetsStartOnSnapPatternIndex",
+            "TimerStartValue",
+            "TimerIncreaseStep",
+            "TimerDecreaseStep",
+            "VibesOn2MinWarningPatternIndex",
+            "Notification2MinWarningCountdownValue",
+            "Notification2MinWarningStateMessage",
+            "VibesOnTimerExpiredPatternIndex",
+            "NotificationTimerExpiredCountdownValue",
+            "Notification_1_Minute",
+            "Notification_1_Second",
+            "Notification_1_OnTimerEnabled",
+            "Notification_1_VibePatternIndex",
+            "Notification_1_StateMessage",
+            "Notification_2_Minute",
+            "Notification_2_Second",
+            "Notification_2_OnTimerEnabled",
+            "Notification_2_VibePatternIndex",
+            "Notification_2_StateMessage",
+            "Notification_3_Minute",
+            "Notification_3_Second",
+            "Notification_3_OnTimerEnabled",
+            "Notification_3_VibePatternIndex",
+            "Notification_3_StateMessage",
+            "Notification_4_Minute",
+            "Notification_4_Second",
+            "Notification_4_OnTimerEnabled",
+            "Notification_4_VibePatternIndex",
+            "Notification_4_StateMessage",
+            "Notification_5_Minute",
+            "Notification_5_Second",
+            "Notification_5_OnTimerEnabled",
+            "Notification_5_VibePatternIndex",
+            "Notification_5_StateMessage",
+            "Notification_6_Minute",
+            "Notification_6_Second",
+            "Notification_6_OnTimerEnabled",
+            "Notification_6_VibePatternIndex",
+            "Notification_6_StateMessage",
+            "Notification_7_Minute",
+            "Notification_7_Second",
+            "Notification_7_OnTimerEnabled",
+            "Notification_7_VibePatternIndex",
+            "Notification_7_StateMessage",
+            "Notification_8_Minute",
+            "Notification_8_Second",
+            "Notification_8_OnTimerEnabled",
+            "Notification_8_VibePatternIndex",
+            "Notification_8_StateMessage",
+            "Notification_9_Minute",
+            "Notification_9_Second",
+            "Notification_9_OnTimerEnabled",
+            "Notification_9_VibePatternIndex",
+            "Notification_9_StateMessage"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/img_arrow_black_15x15.png",
+                    "name": "IMAGE_START_BLACK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/img_square_black_15x15.png",
+                    "name": "IMAGE_STOP_BLACK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/img_square_white_15x15.png",
+                    "name": "IMAGE_STOP_WHITE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/img_arrow_right_white_15x15.png",
+                    "name": "IMAGE_START_WHITE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/font_roboto_bold.tff",
+                    "name": "ROBOTO_BOLD_SUBSET_49",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/font_roboto_bold.tff",
+                    "name": "ROBOTO_BOLD_SUBSET_42",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/football_25x25_bw.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "14130e54-8822-4e92-a551-0baa3b9b67ea",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,52 @@
+#include <pebble.h>
+
+#if defined(PBL_COLOR)
+#else
+#endif
+
+#if defined(PBL_RECT)
+#define MSG_BOX_HEIGHT_DIVIDER 5
+#define MSG_BOX_LAYER_X_CORRECTION_FACTOR 0
+#define MSG_BOX_LAYER_Y_CORRECTION_FACTOR 0
+#define BTN_DESC_WIDTH_DIVIDER 5
+#define BTN_DESC_HEIGHT_DIVIDER 2.7
+#define BTN_DESC_LAYER_Y_CORRECTION_FACTOR 0
+#else
+#define MSG_BOX_HEIGHT_DIVIDER 3.5
+#define MSG_BOX_LAYER_X_CORRECTION_FACTOR 0.05
+#define MSG_BOX_LAYER_Y_CORRECTION_FACTOR 0.25
+#define BTN_DESC_WIDTH_DIVIDER 4
+#define BTN_DESC_HEIGHT_DIVIDER 2.4
+#define BTN_DESC_LAYER_Y_CORRECTION_FACTOR 0.2
+#endif
+#define MSG_BOX_WIDTH(x) (x-BTN_DESC_WIDTH(x))
+#define MSG_BOX_HEIGHT(y) (y/MSG_BOX_HEIGHT_DIVIDER)
+#define MSG_BOX_LAYER_X_CORRECTION(x) (MSG_BOX_LAYER_X_CORRECTION_FACTOR * MSG_BOX_WIDTH(x))
+#define MSG_BOX_LAYER_Y_CORRECTION(y) (MSG_BOX_LAYER_Y_CORRECTION_FACTOR * MSG_BOX_HEIGHT(y))
+#define BTN_DESC_WIDTH(x) (x/BTN_DESC_WIDTH_DIVIDER)
+#define BTN_DESC_HEIGHT(y) (y/BTN_DESC_HEIGHT_DIVIDER)
+#define BTN_DESC_X_LEFT(x) (x-(x/BTN_DESC_WIDTH_DIVIDER))
+#define BTN_DESC_Y_TOP(y) (BTN_DESC_HEIGHT(y)/2)-(FONT_DEFAULT_SIZE/2)
+#define BTN_DESC_LAYER_Y_CORRECTION(y) (BTN_DESC_LAYER_Y_CORRECTION_FACTOR * BTN_DESC_HEIGHT(y))
+
+typedef enum { STATE_STANDBY, STATE_STOPPED, STATE_RUNNING, STATE_EXPIRED } TimerState;
+
+typedef struct TimerInfo {
+	TimerState state;
+	bool isRunning;
+	char *stateMessage;
+} TimerInfo;
+
+typedef struct Timer {
+	const TimerInfo *info;
+	int value;
+	char *valueDisplay;
+	char *stateMessage;
+} Timer;
+
+const TimerInfo TIMER_STANDBY = { STATE_STANDBY, false, "STANDBY" };
+const TimerInfo TIMER_STOPPED = { STATE_STOPPED, false, "STOPPED" };
+const TimerInfo TIMER_RUNNING = { STATE_RUNNING, true, "RUNNING" };
+const TimerInfo TIMER_EXPIRED = { STATE_EXPIRED, false, "EXPIRED" };
+
+const char *TEXT_HEADLINE = "GAMECLOCK";
