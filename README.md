@@ -85,3 +85,94 @@ Up to 9 individual notifications can be configured via smartphone which display 
 
 ## Settings
 On the smartphone the vibration patterns, notifications and other features of the GameClock can be configured very easily. Note that there is only communication from the smartphone to the Pebble watch implemented, not the other way! So enabling / disabling the vibration (SELECT-Button pressed in standby mode) or changing the length of a period on the Pebble is overwritten when the settings on the smartphone are saved the next time (while connected to the Pebble watch, of course).
+
+***
+
+# GameClock
+von Michael Krenn, American Football Schiedsrichter in Österreich.
+
+Uhr für American Football Schiedsrichter, die am Feld für die GameClock verantwortlich sind, basierend auf den NCAA Rules 2016.
+
+Mit dieser Watchapp ist es möglich, die GameClock am Feld zu betreiben, ohne zu oft auf die Uhr zu sehen und Vorgänge am Spielfeld zu verpassen.
+Die Uhr funktioniert ohne Verbindung zum Handy, trotzdem die meisten Einstellungen wie Benachrichtigungen und Vibrationsmuster via Handy veränderbar sind, wenn eine Verbindung besteht.
+
+Den Knopf oberen / unteren Knopf zu drücken startet / stoppt die Uhr und sendet ein Vibrationssignal als Bestätigung.
+Drückt man einen dieser Knöpfe länger, kann man die Zeit nach oben oder unten korrigieren (z.B. 10 second run-off), was nur möglich ist, wenn die Uhr gestoppt ist.
+Das länger Drücken des mittleren Knopfes setzt die Uhr auf die Startzeit zurück und aktiviert den Standby-Modus, in welchem die Vibration durch erneutes Drücken dieses Knopfes ein- und ausgeschaltet oder die Startzeit erhöht / verringert werden kann (Länge eines Viertels). 
+
+Für die 2-Minuten-Warnung und das Auslaufen der Uhr gibt es spezielle Benachrichtigungen: es kann ein Countdown für jedes dieser Ereignisse konfiguriert werden.
+9 Benachrichtigungen können individuell eingestellt werden.
+Standardmäßig sendet die GameClock ein Vibrationssignal, wenn die folgenden Zeiten erreicht sind: 5:00, 4:00, 3:00, 2:30, 2:00, 1:00 und natürlich, wenn die Uhr ausgelaufen ist.
+
+Des weiteren ist es möglich, sich ein Kennzeichen zu setzen, ob die Uhr "on ready" oder "on snap" zu starten ist.
+
+Zu Testzwecken kann ein Turbo-Modus aktiviert werden, der jede Sekunde 5 Sekunden von der Uhr nimmt.
+
+## Wie funktionierts?
+Der Zurück-Knopf (jener auf der linken Seite) schließt immer die GameClock Watchapp, daher ist Vorsicht geboten, ihn nicht unabsichtlich zu drücken.
+
+Die Uhr kann folgende Zustände haben:
+
+### STANDBY (Start-Ansicht)
+![STANDBY](doc/standby.png "STANDBY")
+#### Knopf oben (*2x kurze Vibration*)
+Startet die Uhr (neuer Zustand: *RUNNING*)
+#### Knopf oben lang gedrückt
+Erhöht die Dauer eines Viertels um eine Minute ohne Verbindung zum Handy.
+#### Knopf in der Mitte
+Vibrationssignale können sofort ein- / ausgeschaltet werden, ohne mit dem Handy verbunden sein zu müssen.
+#### Knopf in der Mitte lang gedrückt
+Aktiviert den "Turbo-Modus" (für Testzwecke läuft die Uhr in 5-facher Geschwindigkeit)
+
+![TURBO-MODE](doc/standby_turbomode.png "TURBO-MODE")
+#### Knopf unten
+Deaktiviert - kein Ereignis
+#### Knopf unten lang gedrückt
+Verringert die Dauer eines Viertels um eine Minute ohne Verbindung zum Handy.
+
+### RUNNING
+![RUNNING](doc/running.png "RUNNING")
+
+Wenn die Uhr läuft, sind alle Knöpfe deaktiviert außer:
+#### Knopf unten (*1x kurze Vibration*)
+Stoppt die Uhr (neuer Zustand: *STOPPED*)
+
+### STOPPED
+![STOPPED](doc/stopped.png "STOPPED")
+#### Knopf oben (*2x kurze Vibrationen*)
+Startet die Uhr (neuer Zustand: *RUNNING*)
+#### Knopf oben lange gedrückt
+Erhöht die Zeit auf der Uhr um 3 Sekunden (am Handy konfigurierbar).
+#### Knopf in der Mitte
+Wechselt zwischen den Nachrichten "START ON SNAP" (*1x kurze Vibration*) and "START ON READY" (*2x kurze Vibrationen*)
+
+![START ON SNAP](doc/stopped_on_snap.png "START ON SNAP") ![START ON READY](doc/stopped_on_ready.png "START ON READY")
+#### Knopf in der Mitte lange gedrückt
+Setzt die Uhr zurück (neuer Zustand: *STANDBY*)
+#### Knopf unten
+Deaktiviert - kein Ereignis
+#### Knopf unten lange gedrückt
+Verringert die Zeit auf der Uhr um 10 Sekunden (am Handy konfigurierbar)., z.B. für einen 10 second run-off.
+
+### EXPIRED
+![EXPIRED](doc/expired.png "EXPIRED")
+
+Wenn die Uhr ausgelaufen ist, sind alle Knöpfe deaktiviert außer:
+#### Knopf in der Mitte
+Setzt die Uhr zurück (neuer Zustand: *STANDBY*)
+
+## Benachrichtigungen
+Es gibt spezielle Benachrichtigungen für die 2-Minuten-Warung und das Auslaufen der Uhr: für diese kann ein Countdown konfiguriert werden (Standard: 5 Sekunden).
+
+![2 minute warning](doc/2_min_warning.png "2 minute warning")
+
+Bis zu 9 individuelle Benachrichtigungen können am Handy konfiguriert werden, die entsprechende Nachrichten anzeigen und Vibrationssignale senden (ähnlich der 2-Minuten-Warnung). Die folgenden Benachrichtigungen sind standardmäßig gesetzt:
+
+* 05:00 WARNING! (*5x lange Vibrationen*)
+* 04:00 WARNING! (*4x lange Vibrationen*)
+* 03:00 WARNING! (*3x lange Vibrationen*)
+* 02:30 WARNING! (*2x lange Vibrationen, 1x kurze Vibration*)
+* 01:00 WARNING! (*1x lange Vibration*)
+
+## Settings
+Am Handy können die Vibrationsmuster, Benachrichtigungen und andere Funktionen der GameClock sehr einfach konfiguriert werden. Beachten Sie, dass nur Kommunikation vom Handy zur Pebble-Uhr eingerichtet ist, nicht anders herum! Somit wird die Aktivierung / Deaktivierung der Vibration (Knopf in der Mitte wird im Standby-Modus gedrückt) oder das Verändern der Viertellänge auf der Pebble überschrieben, sobald die Einstellungen am Handy das nächste mal gespeichert werden (und mit der Pebble-Uhr verbunden ist).
