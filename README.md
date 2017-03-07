@@ -41,6 +41,7 @@ Substracts one minute from the length of a period without connecting to the phon
 
 ### RUNNING
 ![RUNNING](doc/running.png "RUNNING")
+
 When the clock is running all buttons are disabled except:
 #### DOWN-Button (*1x short vibe*)
 Stops the countdown (new state: *STOPPED*)
@@ -64,6 +65,7 @@ Decreases the timer by 10 seconds (configurable on the phone), e.g. for a 10 sec
 
 ### EXPIRED
 ![EXPIRED](doc/expired.png "EXPIRED")
+
 When the timer has expired all buttons are disabled except:
 #### SELECT-Button
 Resets the timer (new state: *STANDBY*)
