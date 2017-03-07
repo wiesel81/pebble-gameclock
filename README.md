@@ -32,6 +32,7 @@ Adds one minute to the length of a period without connecting to the phone.
 Vibration signals can be enabled / disabled immediately without connecting to the phone.
 #### SELECT-Button pressed long
 Enabled "Turbo-Mode" (for test purposes the timer 5 times faster)
+
 ![TURBO-MODE](doc/standby_turbomode.png "TURBO-MODE")
 #### DOWN-Button
 Disabled - no action
@@ -52,6 +53,7 @@ Starts the countdown (new state: *RUNNING*)
 Increases the timer by 3 seconds (configurable on the phone).
 #### SELECT-Button
 Switches between message "START ON SNAP" (*1x short vibe*) and "START ON READY" (*2x short vibes*)
+
 ![START ON SNAP](doc/stopped_on_snap.png "START ON SNAP") ![START ON READY](doc/stopped_on_ready.png "START ON READY")
 #### SELECT-Button pressed long
 Resets the timer (new state: *STANDBY*)
@@ -68,6 +70,7 @@ Resets the timer (new state: *STANDBY*)
 
 ## Notifications
 There are special notifications for the 2 minute warning and the expiry of the timer: a countdown before one of these events occur can be configured (default: 5 seconds).
+
 ![2 minute warning](doc/2_min_warning.png "2 minute warning")
 
 Up to 9 individual notifications can be configured via smartphone which display appropriate messages and send vibration signals (similar to the 2 minute warning). The following notifications are set by default:
