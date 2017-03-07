@@ -84,7 +84,7 @@ Up to 9 individual notifications can be configured via smartphone which display 
 * 01:00 WARNING! (*1x long vibe*)
 
 ## Settings
-On the smartphone the vibration patterns, notifications and other features of the GameClock can be configured very easily. Note that there is only communication from the smartphone to the Pebble watch implemented, not the other way! So enabling / disabling the vibration (SELECT-Button pressed in standby mode) or changing the length of a period on the Pebble is overwritten when the settings on the smartphone are saved the next time (while connected to the Pebble watch, of course).
+On the smartphone the vibration patterns, notifications and other features of the GameClock can be configured very easily. Note that there is only communication from the smartphone to the Pebble watch implemented, not the other way! So enabling / disabling the vibration (SELECT-Button pressed in standby mode) or changing the length of a period on the Pebble is overwritten when the settings on the smartphone are saved the next time.
 
 ***
 
@@ -175,4 +175,4 @@ Bis zu 9 individuelle Benachrichtigungen können am Handy konfiguriert werden, d
 * 01:00 WARNING! (*1x lange Vibration*)
 
 ## Settings
-Am Handy können die Vibrationsmuster, Benachrichtigungen und andere Funktionen der GameClock sehr einfach konfiguriert werden. Beachten Sie, dass nur Kommunikation vom Handy zur Pebble-Uhr eingerichtet ist, nicht anders herum! Somit wird die Aktivierung / Deaktivierung der Vibration (Knopf in der Mitte wird im Standby-Modus gedrückt) oder das Verändern der Viertellänge auf der Pebble überschrieben, sobald die Einstellungen am Handy das nächste mal gespeichert werden (und mit der Pebble-Uhr verbunden ist).
+Am Handy können die Vibrationsmuster, Benachrichtigungen und andere Funktionen der GameClock sehr einfach konfiguriert werden. Beachten Sie, dass nur Kommunikation vom Handy zur Pebble-Uhr eingerichtet ist, nicht anders herum! Somit wird die Aktivierung / Deaktivierung der Vibration (Knopf in der Mitte wird im Standby-Modus gedrückt) oder das Verändern der Viertellänge auf der Pebble überschrieben, sobald die Einstellungen am Handy das nächste mal gespeichert werden.
