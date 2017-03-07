@@ -96,7 +96,7 @@ Uhr für American Football Schiedsrichter, die am Feld für die GameClock verant
 Mit dieser Watchapp ist es möglich, die GameClock am Feld zu betreiben, ohne zu oft auf die Uhr zu sehen und Vorgänge am Spielfeld zu verpassen.
 Die Uhr funktioniert ohne Verbindung zum Handy, trotzdem die meisten Einstellungen wie Benachrichtigungen und Vibrationsmuster via Handy veränderbar sind, wenn eine Verbindung besteht.
 
-Den Knopf oberen / unteren Knopf zu drücken startet / stoppt die Uhr und sendet ein Vibrationssignal als Bestätigung.
+Den oberen / unteren Knopf zu drücken startet / stoppt die Uhr und sendet ein Vibrationssignal als Bestätigung.
 Drückt man einen dieser Knöpfe länger, kann man die Zeit nach oben oder unten korrigieren (z.B. 10 second run-off), was nur möglich ist, wenn die Uhr gestoppt ist.
 Das länger Drücken des mittleren Knopfes setzt die Uhr auf die Startzeit zurück und aktiviert den Standby-Modus, in welchem die Vibration durch erneutes Drücken dieses Knopfes ein- und ausgeschaltet oder die Startzeit erhöht / verringert werden kann (Länge eines Viertels). 
 
