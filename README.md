@@ -98,7 +98,7 @@ Die Uhr funktioniert ohne Verbindung zum Handy, trotzdem die meisten Einstellung
 
 Den oberen / unteren Knopf zu drücken startet / stoppt die Uhr und sendet ein Vibrationssignal als Bestätigung.
 Drückt man einen dieser Knöpfe länger, kann man die Zeit nach oben oder unten korrigieren (z.B. 10 second run-off), was nur möglich ist, wenn die Uhr gestoppt ist.
-Das länger Drücken des mittleren Knopfes setzt die Uhr auf die Startzeit zurück und aktiviert den Standby-Modus, in welchem die Vibration durch erneutes Drücken dieses Knopfes ein- und ausgeschaltet oder die Startzeit erhöht / verringert werden kann (Länge eines Viertels). 
+Das längere Drücken des mittleren Knopfes setzt die Uhr auf die Startzeit zurück und aktiviert den Standby-Modus, in welchem die Vibration durch erneutes Drücken dieses Knopfes ein- und ausgeschaltet oder die Startzeit erhöht / verringert werden kann (Länge eines Viertels). 
 
 Für die 2-Minuten-Warnung und das Auslaufen der Uhr gibt es spezielle Benachrichtigungen: es kann ein Countdown für jedes dieser Ereignisse konfiguriert werden.
 9 Benachrichtigungen können individuell eingestellt werden.
