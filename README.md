@@ -5,12 +5,12 @@ Clock for American Football officials working as on-field timekeeper based on th
 
 With this watchapp it is possible to operate the gameclock on the field without taking a look at the watch too often and missing action. It works offline although most of the settings like notifications and vibration patterns are customizable via phone when connected.
 
-Pressing the up- / down-button starts / stops the timer, giving a vibration signal as confirmation.
-Pressing one of these buttons long allows to increase or decrease the time (e.g. 10 second run-off), which is only possible when the timer is stopped.
+Pressing the up- / down-button starts / stops the timer, giving a vibration signal as confirmation.  
+Pressing one of these buttons long allows to increase or decrease the time (e.g. 10 second run-off), which is only possible when the timer is stopped.  
 Pressing the select-button long resets the timer to initial time and activates standby-mode, which allows to enable / disable vibration using the select-button again or increase / decrease initial time (length of a period).
 
-There are special notifications for the 2 minute warning and the expiry of the timer: a countdown before one of these events occur can be configured.
-9 notifications can be configured individually.
+There are special notifications for the 2 minute warning and the expiry of the timer: a countdown before one of these events occur can be configured.  
+9 notifications can be configured individually.  
 Per default the gameclock sends a vibration signal when timer reaches 5:00, 4:00, 3:00, 2:30, 2:00, 1:00 and, of course, when the timer expires.
 
 It is also possible to set a marker on a stopped timer wheather it has to be started on ready or on snap.
@@ -93,15 +93,14 @@ von Michael Krenn, American Football Schiedsrichter in Österreich.
 
 Uhr für American Football Schiedsrichter, die am Feld für die GameClock verantwortlich sind, basierend auf den NCAA Rules 2016.
 
-Mit dieser Watchapp ist es möglich, die GameClock am Feld zu betreiben, ohne zu oft auf die Uhr zu sehen und Vorgänge am Spielfeld zu verpassen.
-Die Uhr funktioniert ohne Verbindung zum Handy, trotzdem die meisten Einstellungen wie Benachrichtigungen und Vibrationsmuster via Handy veränderbar sind, wenn eine Verbindung besteht.
+Mit dieser Watchapp ist es möglich, die GameClock am Feld zu betreiben, ohne zu oft auf die Uhr zu sehen und Vorgänge am Spielfeld zu verpassen. Die Uhr funktioniert ohne Verbindung zum Handy, trotzdem die meisten Einstellungen wie Benachrichtigungen und Vibrationsmuster via Handy veränderbar sind, wenn eine Verbindung besteht.
 
-Den oberen / unteren Knopf zu drücken startet / stoppt die Uhr und sendet ein Vibrationssignal als Bestätigung.
-Drückt man einen dieser Knöpfe länger, kann man die Zeit nach oben oder unten korrigieren (z.B. 10 second run-off), was nur möglich ist, wenn die Uhr gestoppt ist.
+Den oberen / unteren Knopf zu drücken startet / stoppt die Uhr und sendet ein Vibrationssignal als Bestätigung.  
+Drückt man einen dieser Knöpfe länger, kann man die Zeit nach oben oder unten korrigieren (z.B. 10 second run-off), was nur möglich ist, wenn die Uhr gestoppt ist.  
 Das längere Drücken des mittleren Knopfes setzt die Uhr auf die Startzeit zurück und aktiviert den Standby-Modus, in welchem die Vibration durch erneutes Drücken dieses Knopfes ein- und ausgeschaltet oder die Startzeit erhöht / verringert werden kann (Länge eines Viertels). 
 
-Für die 2-Minuten-Warnung und das Auslaufen der Uhr gibt es spezielle Benachrichtigungen: es kann ein Countdown für jedes dieser Ereignisse konfiguriert werden.
-9 Benachrichtigungen können individuell eingestellt werden.
+Für die 2-Minuten-Warnung und das Auslaufen der Uhr gibt es spezielle Benachrichtigungen: es kann ein Countdown für jedes dieser Ereignisse konfiguriert werden.  
+9 Benachrichtigungen können individuell eingestellt werden.  
 Standardmäßig sendet die GameClock ein Vibrationssignal, wenn die folgenden Zeiten erreicht sind: 5:00, 4:00, 3:00, 2:30, 2:00, 1:00 und natürlich, wenn die Uhr ausgelaufen ist.
 
 Des weiteren ist es möglich, sich ein Kennzeichen zu setzen, ob die Uhr "on ready" oder "on snap" zu starten ist.
