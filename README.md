@@ -174,5 +174,5 @@ Bis zu 9 individuelle Benachrichtigungen können am Handy konfiguriert werden, d
 * 02:30 WARNING! (*2x lange Vibrationen, 1x kurze Vibration*)
 * 01:00 WARNING! (*1x lange Vibration*)
 
-## Settings
+## Einstellungen
 Am Handy können die Vibrationsmuster, Benachrichtigungen und andere Funktionen der GameClock sehr einfach konfiguriert werden. Beachten Sie, dass nur Kommunikation vom Handy zur Pebble-Uhr eingerichtet ist, nicht anders herum! Somit wird die Aktivierung / Deaktivierung der Vibration (Knopf in der Mitte wird im Standby-Modus gedrückt) oder das Verändern der Viertellänge auf der Pebble überschrieben, sobald die Einstellungen am Handy das nächste mal gespeichert werden.
